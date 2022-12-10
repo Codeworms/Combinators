@@ -1,0 +1,58 @@
+.square{
+	width:100px;
+	height:100px;
+	background-color:#4beca6;
+	margin:10px;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+.circle{
+	width:90%;
+	height:90%;
+	border-radius: 50rem;
+	background-color:#000;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+.diamond{
+	width:50%;
+	height:50%;
+	background-color:#f00;
+	margin:10px;
+	transform: rotate(45deg);
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.square .pink{
+	background-color:pink;
+}
+
+/* Descendant Selector : Selects all of targets anywhere inside of parent : Represented by Space */
+/* Child Selector : Selects only direct targeted children of the parent */
+/* Adjacent Selector : Selects a target exactly afterwards of a sibling */
+
+
+Square Circle{
+	background-color:black;
+}
+
+
+/* Square
+	Circle
+Square
+Square
+	Circle
+		Diamond
+Square
+	Circle
+		Diamond
+			Circle
+Square
+	Circle
+		Diamond
+			Circle
+Square */
