@@ -4,12 +4,12 @@
 	background-color:#4beca6;
 	margin:10px;
 	display:flex;
-	justify-content:center;
+	justify-content:space-between;
 	align-items: center;
 }
 .circle{
-	width:90%;
-	height:90%;
+	width:30%;
+	height:30%;
 	border-radius: 50rem;
 	background-color:#000;
 	display:flex;
@@ -17,8 +17,8 @@
 	align-items: center;
 }
 .diamond{
-	width:50%;
-	height:50%;
+	width:30%;
+	height:30%;
 	background-color:#f00;
 	margin:10px;
 	transform: rotate(45deg);
@@ -27,13 +27,29 @@
 	align-items: center;
 }
 
-.square .pink{
+/* .square div{
+	background-color:pink;
+	border:2px solid black;
+} */
+
+.square .circle{
+	background-color:yellow;
+}
+.square > .diamond{
+	background-color:purple;
+}
+.square + .diamond{
+	background-color:olive;
+}
+.circle + .circle{
+	border: 1px solid black;
+}
+.diamond + .circle {
 	background-color:pink;
 }
-
 /* Descendant Selector : Selects all of targets anywhere inside of parent : Represented by Space */
-/* Child Selector : Selects only direct targeted children of the parent */
-/* Adjacent Selector : Selects a target exactly afterwards of a sibling */
+/* Child Selector : Selects only direct targeted children of the parent : Represented by a > */
+/* Adjacent Selector : Selects a target exactly afterwards of a sibling : Represented by a + */
 
 
 Square Circle{
